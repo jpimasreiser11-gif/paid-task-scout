@@ -1,0 +1,7 @@
+{
+  "status": "operational",
+  "payments": "enabled",
+  "escrow": "enabled",
+  "tasks": {"open": 5},
+  "note": "LOCAL FIXTURE. Invented values, not a real API observation."
+}

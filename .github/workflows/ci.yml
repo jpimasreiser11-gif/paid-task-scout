@@ -1,0 +1,30 @@
+name: Offline regression tests
+
+on:
+  push:
+    paths:
+      - "scout.py"
+      - "tests/**"
+      - "fixtures/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "scout.py"
+      - "tests/**"
+      - "fixtures/**"
+      - ".github/workflows/ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test without external APIs
+        run: |
+          python3 -m unittest discover -s tests -v
+          python3 -m py_compile scout.py
+          python3 scout.py --offline --output /tmp/paid-task-scout-test

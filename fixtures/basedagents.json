@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "tasks": [
+    {
+      "task_id": "fixture-funded-001",
+      "title": "Summarize a public JSON schema",
+      "description": "Read one public schema and return a short technical note. No paid services required.",
+      "status": "open",
+      "payment_status": "pending",
+      "bounty_token": "USDC",
+      "bounty_network": "eip155:8453",
+      "bounty": {"amount_atomic": "2500000", "amount_display": "2.50", "token": "USDC", "network": "eip155:8453"},
+      "escrow": {
+        "status": "funded",
+        "deposit_tx_hash": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "funded_at": "2026-10-10T12:00:00Z"
+      }
+    },
+    {
+      "task_id": "fixture-declared-002",
+      "title": "Review Markdown headings",
+      "description": "Check an open-source readme for headings.",
+      "status": "open",
+      "bounty_token": "USDC",
+      "bounty_network": "eip155:8453",
+      "bounty": {"amount_display": "10.00", "token": "USDC"},
+      "payment_status": "pending",
+      "payment_verified": 1,
+      "escrow": null
+    },
+    {
+      "task_id": "fixture-test-003",
+      "title": "Test hire (please ignore)",
+      "description": "Checking the paid flow; this task will be cancelled.",
+      "status": "open",
+      "bounty_token": "USDC",
+      "bounty_network": "eip155:8453",
+      "bounty": {"amount_display": "50.00", "token": "USDC"},
+      "escrow": {
+        "status": "funded",
+        "deposit_tx_hash": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      }
+    },
+    {
+      "task_id": "fixture-expense-004",
+      "title": "Deploy an app",
+      "description": "Purchase a subscription to a hosting provider before deploying.",
+      "status": "open",
+      "bounty_token": "USDC",
+      "bounty_network": "eip155:8453",
+      "bounty": {"amount_display": "20.00", "token": "USDC"},
+      "escrow": {"status": "funded", "deposit_tx_hash": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"}
+    },
+    {
+      "task_id": "fixture-age-005",
+      "title": "Write a short Python script",
+      "description": "Applicants must be at least 18 years old.",
+      "status": "open",
+      "bounty_token": "USDC",
+      "bounty_network": "eip155:8453",
+      "bounty": {"amount_display": "20.00", "token": "USDC"},
+      "escrow": {"status": "funded", "deposit_tx_hash": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"}
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Read-only evidence-first dashboard of public AI agent task markets.">
+  <title>FundedTask Signal · Evidence before reward</title>
+  <style>
+    :root{color-scheme:dark;--bg:#070c16;--panel:#121c2a;--line:#263248;--text:#edf4ff;--muted:#9fb0c9;--accent:#75d9bd;--light:#b4a4fc;--danger:#efa2a2;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 78% 0%,#20274b 0%,transparent 38%),var(--bg);color:var(--text)}
+    a{color:#a6e4fb}header,main,footer{max-width:1190px;margin:0 auto;padding-left:25px;padding-right:25px}header{padding-top:28px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+    .brand{font-weight:780;letter-spacing:-.035em;font-size:19px}.brand span{color:var(--accent)}.tag{color:var(--muted);font-size:12px;border:1px solid var(--line);border-radius:999px;padding:8px 11px}
+    main{padding-top:58px;padding-bottom:65px}.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--accent);font-size:11px;font-weight:850}
+    h1{font-size:clamp(39px,6vw,72px);max-width:920px;letter-spacing:-.065em;line-height:1.04;margin:15px 0}h1 em{color:var(--light);font-style:normal}
+    .intro{max-width:690px;font-size:16px;line-height:1.65;color:var(--muted)}
+    .meta{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px;font-size:12px;color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:38px 0}.card{background:linear-gradient(150deg,#182536,#111a29);border:1px solid var(--line);padding:22px;border-radius:17px}
+    .metric{font-weight:790;font-size:36px;letter-spacing:-.055em;line-height:1.2}.metric.green{color:var(--accent)}.card h2{font-size:12px;color:var(--muted);font-weight:550;margin:8px 0 0}
+    .toolbar{display:flex;flex-wrap:wrap;justify-content:space-between;gap:13px;align-items:center;margin-bottom:15px}
+    .toolbar h2{font-size:20px;letter-spacing:-.035em;margin:0}.controls{display:flex;flex-wrap:wrap;gap:10px}
+    input,select{padding:11px 14px;border:1px solid #3b4761;background:#162032;color:var(--text);border-radius:9px;font:inherit;font-size:13px}
+    input{width:min(320px,75vw)}input:focus,select:focus{outline:2px solid var(--light);outline-offset:2px}
+    .table-frame{border:1px solid var(--line);background:#101827;border-radius:16px;overflow:auto}
+    table{width:100%;border-collapse:collapse;font-size:13px;min-width:760px}th{text-align:left;font-weight:600;color:#91a6c2;text-transform:uppercase;letter-spacing:.08em;font-size:10px;background:#172235;padding:17px 18px}
+    td{padding:17px 18px;border-top:1px solid var(--line);vertical-align:top}tr:hover td{background:#152136}
+    .source{font-weight:650}.title-cell{max-width:340px;line-height:1.45;word-break:break-word}
+    .money{font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap}
+    .pill{display:inline-block;font-size:11px;border:1px solid #546277;border-radius:999px;padding:4px 9px;color:#d6e4fb;white-space:nowrap}
+    .pill.real-funded{color:#90f2d2;border-color:#337f72;background:#12352d}.pill.unusable{color:#f1baba;border-color:#6a373f}.pill.sandbox{color:#c6bcfa;border-color:#55497d}
+    .reason{font-size:12px;color:var(--muted);line-height:1.55;max-width:400px}.empty{padding:42px 20px;color:var(--muted);text-align:center}
+    aside{background:#111d2c;border:1px solid var(--line);padding:22px;border-radius:15px;margin-top:26px;line-height:1.7;color:var(--muted);font-size:13px}
+    aside strong{color:var(--text)}.health{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+    .health span{border:1px solid var(--line);border-radius:7px;padding:6px 10px;font-size:11px}footer{border-top:1px solid var(--line);padding-top:24px;padding-bottom:28px;color:var(--muted);font-size:12px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:15px}
+    @media(max-width:760px){main{padding-top:32px}.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.card{padding:17px}.metric{font-size:30px}header,main,footer{padding-left:16px;padding-right:16px}.tag{font-size:10px}.intro{font-size:14px}}
+  </style>
+</head>
+<body>
+<header><div class="brand"><span>◈</span> FundedTask Signal</div><div class="tag">PUBLIC MARKET INTELLIGENCE · READ ONLY</div></header>
+<main>
+  <p class="eyebrow">Evidence before reward</p>
+  <h1>Don't confuse a <em>bounty listing</em> with money.</h1>
+  <p class="intro">We inspect public agent-task marketplaces, flag test and sandbox tasks, and distinguish advertised rewards from API-reported deposits. Every result needs independent eligibility, escrow and settlement checks before anyone claims work.</p>
+  <div class="meta"><span id="updated">Loading latest scan…</span><span id="mode">Public APIs, no accounts required</span></div>
+  <div class="cards" aria-label="Classification counts">
+    <div class="card"><div class="metric green" id="c-real-funded">—</div><h2>Reported funded · not independently verified</h2></div>
+    <div class="card"><div class="metric" id="c-declared-not-funded">—</div><h2>Declared without confirmed deposit</h2></div>
+    <div class="card"><div class="metric" id="c-unusable">—</div><h2>Excluded · trials, costs or competition</h2></div>
+    <div class="card"><div class="metric" id="c-sandbox">—</div><h2>Sandbox / play money</h2></div>
+  </div>
+  <div class="toolbar">
+    <h2>Task feed</h2>
+    <div class="controls"><input type="search" id="search" placeholder="Search tasks or sources…" aria-label="Search tasks"><select id="filter" aria-label="Filter status"><option value="">All classifications</option><option value="real-funded">Reported funded</option><option value="declared-not-funded">Declared only</option><option value="sandbox">Sandbox</option><option value="unusable">Excluded</option><option value="unknown">Unknown</option></select></div>
+  </div>
+  <div class="table-frame"><table aria-label="Task listings"><thead><tr><th>Market</th><th>Task</th><th>Reward</th><th>Classification</th><th>Reason</th></tr></thead><tbody id="rows"><tr><td colspan="5" class="empty">Loading verified public scan…</td></tr></tbody></table></div>
+  <aside><strong>Why this matters.</strong> A number printed on an issue or marketplace page is not proof someone can collect it. “Funded” describes what a source reports and may still be refunded, disputed or ineligible. Age, KYC, local regulations and legal entitlement to payment are never inferred from public task details. No task on this page is a recommendation to trade crypto, prepay, sign contracts or bypass eligibility conditions.<div class="health" id="health"></div></aside>
+</main>
+<footer><span>FundedTask Signal · open-source research utility</span><span>Automated, read-only discovery. Not financial or legal advice.</span></footer>
+<script>
+(() => {
+  "use strict";
+  const $ = id => document.getElementById(id);
+  let all = [];
+  function cell(text, className = "") {
+    const td = document.createElement("td");
+    td.textContent = String(text ?? "");
+    if (className) td.className = className;
+    return td;
+  }
+  function render() {
+    const query = $("search").value.toLowerCase().trim();
+    const status = $("filter").value;
+    const data = all.filter(r => (!status || r.category === status) &&
+      (!query || [r.source,r.title,r.id,r.category,...(r.reasons || [])].join(" ").toLowerCase().includes(query)));
+    const parent = $("rows"); parent.replaceChildren();
+    if (!data.length) {
+      const tr = document.createElement("tr");
+      const td = cell("No entries match these filters.", "empty"); td.colSpan=5; tr.append(td); parent.append(tr);
+      return;
+    }
+    for (const r of data) {
+      const tr = document.createElement("tr");
+      tr.append(cell(r.source,"source"));
+      const title = cell("","title-cell");
+      if (typeof r.url === "string" && /^https:\/\//i.test(r.url)) {
+        const link = document.createElement("a"); link.href=r.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent=r.title || r.id;title.append(link);
+      } else {title.textContent=r.title||r.id;}
+      tr.append(title,cell(r.amount_usdc ? r.amount_usdc+" USDC" : "—","money"));
+      const classification = cell("");const pill=document.createElement("span");pill.className="pill "+r.category;pill.textContent=r.category;classification.append(pill);
+      tr.append(classification,cell((r.reasons||[]).join(" · "),"reason"));parent.append(tr);
+    }
+  }
+  $("search").addEventListener("input",render);$("filter").addEventListener("change",render);
+  fetch("./report.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(data=>{
+    all=Array.isArray(data.rows)?data.rows:[];
+    $("updated").textContent="Last scan (UTC): "+(data.scanned_at_utc||"unknown");
+    $("mode").textContent="Scan mode: "+(data.mode||"unknown");
+    for(const status of ["real-funded","declared-not-funded","sandbox","unusable"]) $("c-"+status).textContent=String((data.counts||{})[status]??0);
+    const health=$("health");
+    for(const [name,details] of Object.entries(data.sources||{})){const span=document.createElement("span");span.textContent=name+" · "+(details.ok?"online":"unavailable")+(details.degraded?" · degraded":"");health.append(span)}
+    render();
+  }).catch(e=>{$("updated").textContent="Scan not available";$("rows").replaceChildren();const tr=document.createElement("tr");const td=cell("No report.json was published with this page: "+e.message,"empty");td.colSpan=5;tr.append(td);$("rows").append(tr)});
+})();
+</script>
+</body>
+</html>

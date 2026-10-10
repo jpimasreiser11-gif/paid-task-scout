@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    {
+      "id": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "description": "Fix a small formatting bug in an open repository",
+      "reward": "3000000",
+      "escrowTxHash": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "open",
+      "mode": "bounty",
+      "submissionCount": 0,
+      "stakeRequired": false,
+      "expiryTime": "2099-01-01T00:00:00Z"
+    },
+    {
+      "id": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "description": "Bridge tokens to another chain",
+      "reward": "5000000",
+      "escrowTxHash": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "status": "open",
+      "submissionCount": 0,
+      "expiryTime": "2099-01-01T00:00:00Z"
+    },
+    {
+      "id": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "description": "Fix tiny CLI issue",
+      "reward": "10000000",
+      "escrowTxHash": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "status": "open",
+      "submissionCount": 27,
+      "expiryTime": "2099-01-01T00:00:00Z"
+    },
+    {
+      "id": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "description": "Write a minimal readme",
+      "reward": "1000000",
+      "escrowTxHash": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "status": "open",
+      "submissionCount": 0,
+      "expiryTime": "2020-01-01T00:00:00Z"
+    }
+  ]
+}

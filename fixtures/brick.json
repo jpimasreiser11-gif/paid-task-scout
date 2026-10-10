@@ -1,0 +1,27 @@
+{
+  "count": 3,
+  "tasks": [
+    {
+      "id": "fixture-sandbox-brick",
+      "title": "Check a public agent-card endpoint",
+      "description": "Return the public response as JSON.",
+      "state": "open",
+      "paymentState": "escrowed",
+      "reward": {"amount": "100000", "display": "0.10", "asset": "USDC", "network": "sandbox"}
+    },
+    {
+      "id": "fixture-free-brick",
+      "title": "Discuss project architecture",
+      "state": "open",
+      "paymentState": "none",
+      "reward": null
+    },
+    {
+      "id": "fixture-mainnet-brick",
+      "title": "Fix a small parsing bug",
+      "state": "open",
+      "paymentState": "escrowed",
+      "reward": {"amount": "4000000", "display": "4.00", "asset": "USDC", "network": "base-mainnet"}
+    }
+  ]
+}

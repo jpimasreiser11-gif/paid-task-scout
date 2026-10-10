@@ -1,0 +1,25 @@
+{
+  "schema_version": "agent-bounties/opportunity-projection-v1",
+  "network": "base-mainnet",
+  "degraded": true,
+  "source_statuses": [
+    {
+      "source_type": "canonical_base",
+      "available": false,
+      "error": "open_competition_read_model_unavailable"
+    }
+  ],
+  "items": [
+    {
+      "id": "fixture-projection-01",
+      "title": "Write docs for public protocol",
+      "description": "Write a concise public explanation.",
+      "source_type": "canonical_base",
+      "work_state": "claimable",
+      "payment_state": "escrowed",
+      "network": "base-mainnet",
+      "reward": {"amount_display": "5.00", "token": "USDC"}
+    }
+  ],
+  "evidence_boundary": "Fixture. Degraded feed is not valid funding evidence."
+}

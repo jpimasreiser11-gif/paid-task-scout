@@ -1,0 +1,39 @@
+name: Refresh public task markets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13 */12 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: funded-task-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Read public feeds
+        run: |
+          python3 scout.py --live || {
+            status=$?
+            test "$status" -eq 2
+          }
+      - name: Publish latest public scan
+        run: |
+          mkdir -p docs
+          cp output/report.json docs/report.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/report.json output/report.md output/scans.csv docs/report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh public task sources"
+            git push
+          fi
