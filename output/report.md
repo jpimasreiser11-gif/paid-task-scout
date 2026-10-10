@@ -1,6 +1,6 @@
 # Paid Task Scout — informe público
 
-**Generado (UTC):** 2026-10-10T11:43:00+00:00
+**Generado (UTC):** 2026-10-10T11:47:19+00:00
 **Modo:** live
 **Política:** Conservadora; real-funded = escrow marcado funded + depósito hash Base mainnet reportado por API. Sin verificación independiente on-chain, disponibilidad, legitimidad o elegibilidad legal.
 
@@ -17,7 +17,7 @@
 - **real-funded**: 0
 - **declared-not-funded**: 24
 - **sandbox**: 14
-- **unusable**: 38
+- **unusable**: 37
 - **unknown**: 0
 
 ## Tareas
@@ -98,7 +98,6 @@
 | taskmarket | 0x81d3bc30fbb07f21cd8421ed0538ac3c4911557365a95c30426fda875fe9597a |  | **unusable** | 4 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0x81d97f25759b759fb592f7ad51532a57a7831882ca0c15330d1f212642f75ec9 |  | **unusable** | 2 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0xde41c74c6a68dd52522312e87a50b292c6d5a0517dadb934ac160e0af5376162 |  | **unusable** | 3 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| taskmarket | 0x5c7c1cb783c13907eb1ca0d2b55685162323a5fe4802e8c5f37a0f2ad49143fa |  | **unusable** | 6 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0x5f596b1a81417834a4366655bd4e6194819f5404a62c919c6953ae9bc92860bc |  | **unusable** | 199 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 
 ## Limitaciones
