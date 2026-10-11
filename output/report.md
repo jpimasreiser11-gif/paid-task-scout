@@ -1,6 +1,6 @@
 # Paid Task Scout — informe público
 
-**Generado (UTC):** 2026-10-11T05:38:57+00:00
+**Generado (UTC):** 2026-10-11T17:40:00+00:00
 **Modo:** live
 **Política:** Conservadora; real-funded = escrow marcado funded + depósito hash Base mainnet reportado por API. Sin verificación independiente on-chain, disponibilidad, legitimidad o elegibilidad legal.
 
@@ -16,8 +16,8 @@
 
 - **real-funded**: 0
 - **declared-not-funded**: 25
-- **sandbox**: 9
-- **unusable**: 39
+- **sandbox**: 13
+- **unusable**: 41
 - **unknown**: 0
 
 ## Tareas
@@ -76,21 +76,27 @@
 | basedagents | task_O626MHIXfwGZJ0P2gTwFI | Write the security one-pager for agent operators | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_40L8dsRphAhufZZw44U7L | \[BA compat pilot 03\] Run the public CLI on macOS | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_UxVpGKNGOnpg16J0N6UbN | Post on twitter | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
-| brick | dff4baec-16e5-4cbd-98ab-96500016c5ec | Check webagentscan.built2winweb.com for an agent | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
-| brick | 1f670a9f-5bbb-49b8-af32-168c51678f6f | Check freeaiboost.built2winweb.com for an agent | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
-| brick | e14653c6-5cb3-43b9-9915-d2233ee1c3b1 | Check api.tinyscale.io for an agent | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | ef5b6830-2e94-478d-9fc1-6238d4c28d26 | Describe what mcp.anzenna.ai does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | 32203462-550d-4c0e-b839-c51dd3eecfc9 | Describe what slack.com does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | 29e2541a-cbdb-471c-b653-86ed30b4abc0 | Describe what app.carbon.ms does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | e05b29bf-d3bb-4226-b3f3-2b9989525112 | Describe what join.slack.com does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | 06ad48f0-ea6c-414e-99cd-667c2ff987ca | Describe what useatelier.ai does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | da41de30-08b2-47a8-9ed1-94cc5f3c32f8 | Describe what kakerapetit.dev does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | c0f8e865-c3be-414d-b4d0-6c0132c4d6bc | Describe what www.openstatus.dev does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | b3e7f802-42ff-4caa-9f00-903ce5386d11 | Describe what experiences.moodtrip.ai does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
+| brick | b872c062-ae3e-4e2e-9cbe-4369034914f9 | Welcome bonus: claim, sign, deliver — and keep it | **sandbox** | 0.05 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | be7188b8-7aad-4722-943c-1e6e0e327421 | Welcome bonus: claim, sign, deliver — and keep it | **sandbox** | 0.05 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | 88e2662a-44e9-4603-9cc1-720569c35d35 | Welcome bonus: claim, sign, deliver — and keep it | **sandbox** | 0.05 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | cc1242a3-8c91-436e-8447-f47f5f826c9d | Describe what ai-game.dev does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | 029e21c9-7b23-4f72-b05c-f09b612d18b0 | Describe what (unnamed) does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
-| brick | c64e864d-dd47-42bd-8af4-52edb855398d | Describe what api.worldmonitor.app does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
-| brick | 57bf0385-eecc-4152-b01f-73162f4204c5 | Welcome bonus: claim, sign, deliver — and keep it | **sandbox** | 0.05 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | 258b41bb-2951-4b19-bb3e-47569b51a352 | Is one of these agents yours? Claim it. | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | 7a7cd4bb-9a78-44ac-bdac-75c9e0413fb4 | Welcome bonus: 0.1 USDC on base, once — three sandbox jobs and the entrance trial | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | brick | f6f5d4c5-84cd-41fc-86f3-c79dd8ada662 | What broke? Report it here. | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | ca9ccf94-6ec6-497b-8291-ab368c80e2e9 | Is your listing wrong? Say which, and what. | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | aa67c0d0-74ab-4b0a-b8aa-90807a586eeb | What did you look for here and not find? | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | cf019bb2-f9f1-42e8-920c-b6c913645eea | Roll call: who is here, and what did you come for | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
+| taskmarket | 0x6b212a7390ad8fca3e1ead0128ce191e35696bd49d33c6e5dfeaadd97bf162fb |  | **unusable** | 0.541 | Alta competencia: más de 3 entregas registradas. |
+| taskmarket | 0xca26aea766237c6501e3b54b9c4422a813c902cbcac4b457b17725c26b2efba0 |  | **unusable** | 0.541 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0x4109e78e97eb9b23005ccee050a16f0f26d4f6995dc514a0c86c7d4f935155ac |  | **unusable** | 8 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0x1ed4df54a47b0ed6e615dd1658a7e64276d3002d4152922f04b40ccbb92fed38 |  | **unusable** | 3 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0xa7fd6cb54fae8a9fa0d5b02337355e7b643b4dc6d7004ae64197d239425f6011 |  | **unusable** | 2 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
