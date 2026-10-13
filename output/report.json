@@ -1,5 +1,5 @@
 {
-  "scanned_at_utc": "2026-10-13T06:42:46+00:00",
+  "scanned_at_utc": "2026-10-13T19:13:10+00:00",
   "mode": "live",
   "classification_policy": "Conservadora; real-funded = escrow marcado funded + depósito hash Base mainnet reportado por API. Sin verificación independiente on-chain, disponibilidad, legitimidad o elegibilidad legal.",
   "eligible_for_minor_asserted": false,
@@ -28,15 +28,16 @@
       "ok": true,
       "url": "https://api.agentbounties.app/v1/opportunities?limit=100&network=base-mainnet&source_type=canonical_base&view=ready_to_earn",
       "error": null,
-      "degraded": false,
-      "canonical_available": true
+      "degraded": true,
+      "canonical_available": false,
+      "warning": "El feed canónico está degradado/no verificable; no se puede confirmar ausencia de tareas."
     }
   },
   "counts": {
     "real-funded": 0,
-    "declared-not-funded": 30,
+    "declared-not-funded": 27,
     "sandbox": 13,
-    "unusable": 46,
+    "unusable": 42,
     "unknown": 0
   },
   "rows": [
@@ -56,7 +57,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ILI16I1DYjTOabbUBRvV9",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -74,7 +75,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Ix8t4HnjAhX6HilQxdVtZ",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -92,7 +93,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_xunXTsWppfdx45xo6eIMx",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -110,7 +111,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_PRGxeT66PotQxYJw7EPlL",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -128,7 +129,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_jqnmxHEcIGNHvANoCjtyZ",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -146,7 +147,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ToEmWubWjjfNICs4qnkYg",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -164,7 +165,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_a5m1QZ8U3pZyJ0phdu5zN",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -182,7 +183,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_vr45efhdsoFyNHBpf8Wbu",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -200,7 +201,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_05LE4so7mcJ6r0fLWuprn",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -218,7 +219,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ie0cYRfwd7Oo8HZ3hFWPf",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -236,25 +237,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_YzhS2L2gCCpSVWTSaDWQU",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_wVpcyRyUPrTK9MdIwvWJ7",
-      "title": "Industrial Sentinel Minimal Retention Trial 4",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "",
-      "network": "",
-      "payment_state": "none",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_wVpcyRyUPrTK9MdIwvWJ7",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -272,7 +255,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_agnXeb1unGyj2hGK0yrAZ",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -290,7 +273,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_C99K5GE38ozAM889A8iND",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -308,7 +291,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_WHyo4cWDHmMYz7habEOyx",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -326,7 +309,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_RAslgsBDMBAIS8Oe6MsNF",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -344,7 +327,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Zxq5NMNstMnO7G8xBQQoN",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -362,25 +345,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_dq8K6Vq1s5sDUmSMQulvd",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_62ZBECvWTDGU1MHjFcEok",
-      "title": "Industrial Sentinel Paid External Deployment 25",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "2.00",
-      "network": "eip155:8453",
-      "payment_state": "pending",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_62ZBECvWTDGU1MHjFcEok",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -398,7 +363,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Ti5ShGCXzmGkneQh2pnWF",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -416,25 +381,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Q0G5ZxpsrXx13uMG0cJXf",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_PvlJjQnCiHTjbs3Ptkj13",
-      "title": "Industrial Sentinel External Deployment 15",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "",
-      "network": "",
-      "payment_state": "none",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_PvlJjQnCiHTjbs3Ptkj13",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -452,7 +399,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_vgtR2D2gWlZFO7uql0u13",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -470,7 +417,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_mx0xPJqMnYsDa1OSY6rYV",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -488,7 +435,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ShlUCWv2gOlPaPWCPiEy3",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -506,7 +453,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_lsgBEbSxXZAJ1Bv175EDe",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -524,7 +471,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_7xjN3bS70k1F5TTlaXY53",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -542,7 +489,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_2mVAyE2d7zR101Buvvmnp",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -560,7 +507,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_0Xc6PWLeRRmmKJyRdpB4Z",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -578,7 +525,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_F4RRe6HyBJIhmH4CCiT6b",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -596,12 +543,12 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_VOOncCleyYlh8sDbfF5Y3",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
-      "id": "task_kRsTSxcP3IFSRpNEiqqM9",
-      "title": "Reconstruct the complete history of the task board as a normalized dataset",
+      "id": "task_0J6GAKALYDdAOlDvMLXrb",
+      "title": "Measure llms.txt adoption across a defined 200-domain corpus",
       "category": "declared-not-funded",
       "reasons": [
         "Sin importe monetario positivo verificable en el registro público."
@@ -613,8 +560,8 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_kRsTSxcP3IFSRpNEiqqM9",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://basedagents.ai/tasks/task_0J6GAKALYDdAOlDvMLXrb",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -632,7 +579,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_h5RM7LyvXnayBJyFYLfvE",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -650,7 +597,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_vhlI1dlt1D4K4io8MDDTx",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -668,7 +615,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_fijeWCQ0IlVqQKAWbev4W",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -686,7 +633,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Rre9tr3U54dRIuIiZnhyb",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -704,7 +651,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_OEayIc3UCcwT8PvXNPix3",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -722,7 +669,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ALUeByf5V1wTNUSikiOl2",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -740,7 +687,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_dBhBPrBGRrlAwQu49042O",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -758,25 +705,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_HZZfCxOvNlhUNCPMjOaqH",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_yFUGfGFmRj4aThUrI4MMC",
-      "title": "Build a payment-scheme abstraction library with contract tests: exact, auth-capture, and a mock rail",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "",
-      "network": "",
-      "payment_state": "none",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_yFUGfGFmRj4aThUrI4MMC",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -794,7 +723,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_eARMYKPYIZqXxSbGFP4dt",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -812,12 +741,12 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_96AUBiv1oj060qcagPUmY",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
-      "id": "task_oRE0xz7MuQyhnkFKqp8ks",
-      "title": "Census every publicly discoverable x402-accepting endpoint",
+      "id": "task_djvTLOzkwg5Nz3YCNG6bk",
+      "title": "Build an independent uptime and latency observatory for the public API, with a 48-hour pilot dataset",
       "category": "declared-not-funded",
       "reasons": [
         "Sin importe monetario positivo verificable en el registro público."
@@ -829,31 +758,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_oRE0xz7MuQyhnkFKqp8ks",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://basedagents.ai/tasks/task_djvTLOzkwg5Nz3YCNG6bk",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
-      "id": "task_H27ahg5LeNITX4dQvsbeR",
-      "title": "Build a cached GraphQL read gateway over the public BasedAgents API",
-      "category": "declared-not-funded",
-      "reasons": [
-        "Sin importe monetario positivo verificable en el registro público."
-      ],
-      "amount_usdc": "",
-      "network": "",
-      "payment_state": "none",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_H27ahg5LeNITX4dQvsbeR",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_8tsVQ5tpc7AykJ4Hrbj7l",
-      "title": "Design the capability taxonomy standard, grounded in every capability string observed in the wild",
+      "id": "task_0fCLrv8T8cZ7ovzVb29yt",
+      "title": "Write the complete, verified API reference book for BasedAgents",
       "category": "unusable",
       "reasons": [
         "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
@@ -865,26 +776,8 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_8tsVQ5tpc7AykJ4Hrbj7l",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_Zakxt231ICJD4AwoO08ol",
-      "title": "Independently reproduce five published sample deliveries from their own methods",
-      "category": "declared-not-funded",
-      "reasons": [
-        "Sin importe monetario positivo verificable en el registro público."
-      ],
-      "amount_usdc": "",
-      "network": "",
-      "payment_state": "none",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_Zakxt231ICJD4AwoO08ol",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://basedagents.ai/tasks/task_0fCLrv8T8cZ7ovzVb29yt",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -902,43 +795,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_2s8eKEy8z1eEHXXzhcJrr",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_NtQ4XcKdvNqp700nW0wfr",
-      "title": "Deep teardown of the task lifecycles of five agent-work platforms, from public materials",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "",
-      "network": "",
-      "payment_state": "none",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_NtQ4XcKdvNqp700nW0wfr",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_hqKXG5ZRQnXzxsO5T1u8D",
-      "title": "Economically red-team the reputation system by simulation",
-      "category": "declared-not-funded",
-      "reasons": [
-        "Sin importe monetario positivo verificable en el registro público."
-      ],
-      "amount_usdc": "",
-      "network": "",
-      "payment_state": "none",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_hqKXG5ZRQnXzxsO5T1u8D",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -956,7 +813,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_hZE1d24iUMhJdPBjhqQhX",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -974,7 +831,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_qqhErrWDMbvhrw8YcUogY",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -992,7 +849,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_lOCM9eyt4Eqkj40j727x7",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -1010,12 +867,12 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_y372I6J7kxULqpj35xpEz",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
-      "id": "task_40L8dsRphAhufZZw44U7L",
-      "title": "[BA compat pilot 03] Run the public CLI on macOS",
+      "id": "task_6AgoCtvtO9Gldap4XMhkl",
+      "title": "[BA compat pilot 08] Attempt the buyer posting journey without publishing",
       "category": "unusable",
       "reasons": [
         "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
@@ -1027,8 +884,8 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_40L8dsRphAhufZZw44U7L",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://basedagents.ai/tasks/task_6AgoCtvtO9Gldap4XMhkl",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "basedagents",
@@ -1046,12 +903,12 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_UxVpGKNGOnpg16J0N6UbN",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "f6ac2cc6-8477-474e-9b5e-1a48d13a18c6",
-      "title": "Describe what allinonecents.orbonomy.xyz does",
+      "id": "948f7cff-7fe6-406c-8361-7a7e6068e696",
+      "title": "Describe what easepay.xyz does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1063,13 +920,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/f6ac2cc6-8477-474e-9b5e-1a48d13a18c6",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/948f7cff-7fe6-406c-8361-7a7e6068e696",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "344839d1-283c-492f-acc7-51fc159d7fcb",
-      "title": "Describe what allin-onecents.orbonomy.xyz does",
+      "id": "d9d2e7ed-da76-4dee-948c-452ff94b04f7",
+      "title": "Describe what dns-lookup.x402.paysponge.com does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1081,13 +938,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/344839d1-283c-492f-acc7-51fc159d7fcb",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/d9d2e7ed-da76-4dee-948c-452ff94b04f7",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "1c54e212-7c32-4fff-b279-22e75e11c67f",
-      "title": "Describe what ai.verifik.co does",
+      "id": "448e3137-e211-4581-9e42-3c5212296b88",
+      "title": "Describe what deltadata.orbonomy.xyz does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1099,13 +956,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/1c54e212-7c32-4fff-b279-22e75e11c67f",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/448e3137-e211-4581-9e42-3c5212296b88",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "0affae9b-482b-4249-8330-6d4ffc519c78",
-      "title": "Describe what agents-x402.agents-x402.workers.dev does",
+      "id": "bf319386-4e8b-48d6-b52c-5b4aafe5d1e2",
+      "title": "Describe what datsavault.vercel.app does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1117,13 +974,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/0affae9b-482b-4249-8330-6d4ffc519c78",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/bf319386-4e8b-48d6-b52c-5b4aafe5d1e2",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "7f295d76-d7db-420c-a03a-76fab447877a",
-      "title": "Describe what agent.deskrune.com does",
+      "id": "72d34f13-c13a-4c97-b513-daf095fd6316",
+      "title": "Describe what datsavalt.vercel.app does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1135,13 +992,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/7f295d76-d7db-420c-a03a-76fab447877a",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/72d34f13-c13a-4c97-b513-daf095fd6316",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "6243dd9e-0c90-4011-9806-82cc37ba3e55",
-      "title": "Describe what 402peddlr.vercel.app does",
+      "id": "531f9a14-1d43-492c-9424-dfee4dbc929f",
+      "title": "Describe what datault.orbonomy.xyz does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1153,13 +1010,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/6243dd9e-0c90-4011-9806-82cc37ba3e55",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/531f9a14-1d43-492c-9424-dfee4dbc929f",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "08775621-8944-409f-86c7-d5a42b2f82bb",
-      "title": "Describe what 402alphacook.vercel.app does",
+      "id": "9d3e165f-c1f6-47c6-a93a-37ecf747190a",
+      "title": "Describe what cthreexstudios.vercel.app does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1171,13 +1028,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/08775621-8944-409f-86c7-d5a42b2f82bb",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/9d3e165f-c1f6-47c6-a93a-37ecf747190a",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "676dbeb3-e3f2-4aeb-88ca-1b09d3249866",
-      "title": "Describe what 2captcha.x402.paysponge.com does",
+      "id": "778c5d70-9745-49a3-bb1d-39fea835c39d",
+      "title": "Describe what cryptxscopes.vercel.app does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1189,13 +1046,13 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/676dbeb3-e3f2-4aeb-88ca-1b09d3249866",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/778c5d70-9745-49a3-bb1d-39fea835c39d",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
-      "id": "734c8680-d163-4dd6-921f-bd72d05194d0",
-      "title": "Describe what stratta.ch does",
+      "id": "ad01c43b-de8f-4df7-9618-13f9d665010a",
+      "title": "Describe what crucible-lovat.vercel.app does",
       "category": "sandbox",
       "reasons": [
         "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
@@ -1207,8 +1064,62 @@
       "deposit_tx_hash": "",
       "state": "open",
       "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/734c8680-d163-4dd6-921f-bd72d05194d0",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "url": "https://brick.blue/tasks/ad01c43b-de8f-4df7-9618-13f9d665010a",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
+    },
+    {
+      "source": "brick",
+      "id": "1045de7a-1f66-495b-ae29-80dd88b4c2ea",
+      "title": "Welcome bonus: claim, sign, deliver — and keep it",
+      "category": "sandbox",
+      "reasons": [
+        "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
+      ],
+      "amount_usdc": "0.05",
+      "network": "sandbox",
+      "payment_state": "escrowed",
+      "escrow_status": "",
+      "deposit_tx_hash": "",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://brick.blue/tasks/1045de7a-1f66-495b-ae29-80dd88b4c2ea",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
+    },
+    {
+      "source": "brick",
+      "id": "bdc827da-79c1-4379-aa8e-42cef68a65fe",
+      "title": "Welcome bonus: claim, sign, deliver — and keep it",
+      "category": "sandbox",
+      "reasons": [
+        "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
+      ],
+      "amount_usdc": "0.05",
+      "network": "sandbox",
+      "payment_state": "escrowed",
+      "escrow_status": "",
+      "deposit_tx_hash": "",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://brick.blue/tasks/bdc827da-79c1-4379-aa8e-42cef68a65fe",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
+    },
+    {
+      "source": "brick",
+      "id": "1ab75104-82a0-4e59-976c-101e08adf77a",
+      "title": "Describe what bbx-linkedin.vercel.app does",
+      "category": "sandbox",
+      "reasons": [
+        "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
+      ],
+      "amount_usdc": "0.01",
+      "network": "sandbox",
+      "payment_state": "escrowed",
+      "escrow_status": "",
+      "deposit_tx_hash": "",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://brick.blue/tasks/1ab75104-82a0-4e59-976c-101e08adf77a",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
@@ -1226,61 +1137,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/bb939472-77ad-4f3d-bb6a-ecccd40ca9c4",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "brick",
-      "id": "5cd5f6c7-b5e7-4590-918b-cc7ed3216dec",
-      "title": "Welcome bonus: claim, sign, deliver — and keep it",
-      "category": "sandbox",
-      "reasons": [
-        "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
-      ],
-      "amount_usdc": "0.05",
-      "network": "sandbox",
-      "payment_state": "escrowed",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/5cd5f6c7-b5e7-4590-918b-cc7ed3216dec",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "brick",
-      "id": "e05b29bf-d3bb-4226-b3f3-2b9989525112",
-      "title": "Describe what join.slack.com does",
-      "category": "sandbox",
-      "reasons": [
-        "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
-      ],
-      "amount_usdc": "0.01",
-      "network": "sandbox",
-      "payment_state": "escrowed",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/e05b29bf-d3bb-4226-b3f3-2b9989525112",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "brick",
-      "id": "be7188b8-7aad-4722-943c-1e6e0e327421",
-      "title": "Welcome bonus: claim, sign, deliver — and keep it",
-      "category": "sandbox",
-      "reasons": [
-        "Red sandbox/testnet: no equivale a USDC retirables en Base mainnet."
-      ],
-      "amount_usdc": "0.05",
-      "network": "sandbox",
-      "payment_state": "escrowed",
-      "escrow_status": "",
-      "deposit_tx_hash": "",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://brick.blue/tasks/be7188b8-7aad-4722-943c-1e6e0e327421",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
@@ -1298,7 +1155,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/258b41bb-2951-4b19-bb3e-47569b51a352",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
@@ -1316,7 +1173,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/7a7cd4bb-9a78-44ac-bdac-75c9e0413fb4",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
@@ -1334,7 +1191,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/f6f5d4c5-84cd-41fc-86f3-c79dd8ada662",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
@@ -1352,7 +1209,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/ca9ccf94-6ec6-497b-8291-ab368c80e2e9",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
@@ -1370,7 +1227,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/aa67c0d0-74ab-4b0a-b8aa-90807a586eeb",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "brick",
@@ -1388,7 +1245,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/cf019bb2-f9f1-42e8-920c-b6c913645eea",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "agentbounties",
@@ -1406,7 +1263,61 @@
       "state": "claimable",
       "age_eligibility_verified": false,
       "url": "https://api.agentbounties.app/v1/opportunities?limit=100&network=base-mainnet&source_type=canonical_base&view=ready_to_earn",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
+    },
+    {
+      "source": "taskmarket",
+      "id": "0xc26bdd079ba6e372aadc784cb959b471426df304df8d83b7d18826f63818b3c4",
+      "title": "",
+      "category": "unusable",
+      "reasons": [
+        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
+      ],
+      "amount_usdc": "6",
+      "network": "",
+      "payment_state": "",
+      "escrow_status": "",
+      "deposit_tx_hash": "0x9f0808c6b2aa281522e0b013f838f476bd8a70e0dcb894812b616a0a0073254c",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://taskmarket.dev/tasks/0xc26bdd079ba6e372aadc784cb959b471426df304df8d83b7d18826f63818b3c4",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
+    },
+    {
+      "source": "taskmarket",
+      "id": "0x8181b317c4624b8fe6bea0e1abbc866033ff34de21fe130f97de5db16d790ef4",
+      "title": "",
+      "category": "unusable",
+      "reasons": [
+        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
+      ],
+      "amount_usdc": "2",
+      "network": "",
+      "payment_state": "",
+      "escrow_status": "",
+      "deposit_tx_hash": "0x0c52b6a6eaa1d13e3edb864d165fb973af7bf1eee4f2b76208b43bcc74ed29fd",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://taskmarket.dev/tasks/0x8181b317c4624b8fe6bea0e1abbc866033ff34de21fe130f97de5db16d790ef4",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
+    },
+    {
+      "source": "taskmarket",
+      "id": "0xface689636fddb2c35ee6fd0b6259a17622c54ee7b26d30d927c2eedc1c14c0b",
+      "title": "",
+      "category": "unusable",
+      "reasons": [
+        "Alta competencia: más de 3 entregas registradas."
+      ],
+      "amount_usdc": "1",
+      "network": "",
+      "payment_state": "",
+      "escrow_status": "",
+      "deposit_tx_hash": "0x061d2fce30ad808220ce7da843759c9ed13001bac1304dd8d997e1affbb483bd",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://taskmarket.dev/tasks/0xface689636fddb2c35ee6fd0b6259a17622c54ee7b26d30d927c2eedc1c14c0b",
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1424,7 +1335,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xfc26e4fa7c72604358ca3330dc786cd048faad513aa58e1832f1d91190c40e03",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1442,7 +1353,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xb30caf11881455c22943b06af9527ce151908601e0bef7432c06d30177b9d966",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1460,7 +1371,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xe8b50faf59bccf1bdbf5b7dd6bf185710794db6c8cd23847f2f1a8712214fdce",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1478,7 +1389,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xbe8e867ab5d0fb24a2dd5207c13915d0e7827746722cd751103360d24c86d3c7",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1496,7 +1407,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xbd1f5b93dc3cd4553a6e290d1dc7d8c6019ad4303d6eb867b88df036c8e8281a",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1514,25 +1425,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xb197e5905d6298c07c3de51a0be6de3d96db01fffd4a28b2c4af9dba425981eb",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "taskmarket",
-      "id": "0x4880c75fdc72849b802ceeebf961b7478b44a74e566741f8ca9fdf8bb4c61033",
-      "title": "",
-      "category": "unusable",
-      "reasons": [
-        "Alta competencia: más de 3 entregas registradas."
-      ],
-      "amount_usdc": "2",
-      "network": "",
-      "payment_state": "",
-      "escrow_status": "",
-      "deposit_tx_hash": "0xa3c6f90fe6f1cd0d50bbaa7ce5ebd81a7d00462792f44a1e0924839f464f965a",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://taskmarket.dev/tasks/0x4880c75fdc72849b802ceeebf961b7478b44a74e566741f8ca9fdf8bb4c61033",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1550,7 +1443,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0x8bc8bb19d33f9899b0a8c90e03bd659ff14c9d5485bad6fa807b5a56de402238",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1568,7 +1461,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0x6b212a7390ad8fca3e1ead0128ce191e35696bd49d33c6e5dfeaadd97bf162fb",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1586,7 +1479,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xca26aea766237c6501e3b54b9c4422a813c902cbcac4b457b17725c26b2efba0",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1604,25 +1497,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0x4109e78e97eb9b23005ccee050a16f0f26d4f6995dc514a0c86c7d4f935155ac",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
-    },
-    {
-      "source": "taskmarket",
-      "id": "0x1ed4df54a47b0ed6e615dd1658a7e64276d3002d4152922f04b40ccbb92fed38",
-      "title": "",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "3",
-      "network": "",
-      "payment_state": "",
-      "escrow_status": "",
-      "deposit_tx_hash": "0xd80787b13c20f34125b5fe9147e1fc1c7bb2f37f4516b14e56b0d1777c942685",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://taskmarket.dev/tasks/0x1ed4df54a47b0ed6e615dd1658a7e64276d3002d4152922f04b40ccbb92fed38",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     },
     {
       "source": "taskmarket",
@@ -1640,7 +1515,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0x5f596b1a81417834a4366655bd4e6194819f5404a62c919c6953ae9bc92860bc",
-      "scanned_at": "2026-10-13T06:42:46+00:00"
+      "scanned_at": "2026-10-13T19:13:10+00:00"
     }
   ],
   "notes": [
