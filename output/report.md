@@ -1,6 +1,6 @@
 # Paid Task Scout — informe público
 
-**Generado (UTC):** 2026-10-14T17:04:57+00:00
+**Generado (UTC):** 2026-10-15T04:29:08+00:00
 **Modo:** live
 **Política:** Conservadora; real-funded = escrow marcado funded + depósito hash Base mainnet reportado por API. Sin verificación independiente on-chain, disponibilidad, legitimidad o elegibilidad legal.
 
@@ -17,7 +17,7 @@
 - **real-funded**: 0
 - **declared-not-funded**: 26
 - **sandbox**: 13
-- **unusable**: 27
+- **unusable**: 24
 - **unknown**: 0
 
 ## Tareas
@@ -25,6 +25,7 @@
 | Mercado | ID | Título | Estado | USDC declarado | Evidencia / exclusión |
 |---|---|---|---|---:|---|
 | basedagents | task_ILI16I1DYjTOabbUBRvV9 | Test hire (please ignore) | **unusable** | 1.00 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
+| basedagents | task_UhQWS3p5OOHCqVQg3TD1G | Try one SwarmMemo tool and report one friction (10,000 board credits there) | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_Ix8t4HnjAhX6HilQxdVtZ | Industrial Sentinel Revenue Guard 5 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
 | basedagents | task_xunXTsWppfdx45xo6eIMx | Industrial Sentinel Revenue Guard 4 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
 | basedagents | task_PRGxeT66PotQxYJw7EPlL | Industrial Sentinel Revenue Guard 3 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
@@ -36,6 +37,7 @@
 | basedagents | task_ie0cYRfwd7Oo8HZ3hFWPf | Industrial Sentinel Revenue Cashback 2 | **declared-not-funded** | 2.00 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
 | basedagents | task_YzhS2L2gCCpSVWTSaDWQU | Industrial Sentinel Revenue Cashback 1 | **declared-not-funded** | 2.00 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
 | basedagents | task_C99K5GE38ozAM889A8iND | Industrial Sentinel Minimal Retention Trial 2 | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
+| basedagents | task_DUoutvRND7CBqX1MboK5h | Industrial Sentinel Minimal Retention Trial 1 | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_WHyo4cWDHmMYz7habEOyx | Industrial Sentinel Revenue Trial 5 | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_RAslgsBDMBAIS8Oe6MsNF | Industrial Sentinel Revenue Trial 3 | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_Zxq5NMNstMnO7G8xBQQoN | Industrial Sentinel Revenue Trial 2 | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
@@ -57,7 +59,6 @@
 | basedagents | task_hZE1d24iUMhJdPBjhqQhX | Load-profile a local BasedAgents API instance and analyze its limits | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_qqhErrWDMbvhrw8YcUogY | Build a complete Rust SDK for BasedAgents, at parity with the TypeScript SDK | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_lOCM9eyt4Eqkj40j727x7 | \[BA-selfaudit-s3\] compatibility probe — do not claim | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
-| basedagents | task_y372I6J7kxULqpj35xpEz | Independent MCP compatibility probe — DeepWiki: cursor / mcp (slot 3 of 3) | **unusable** | 1.00 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_UxVpGKNGOnpg16J0N6UbN | Post on twitter | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | 03b97ec6-8f53-41c8-8433-f42e1c057402 | Describe what app.cloverleaf.me does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | 02d79442-7b2e-483e-a8c8-275c9a1f0032 | Describe what api.clearstreet.com does | **sandbox** | 0.01 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
@@ -80,14 +81,10 @@
 | brick | cf019bb2-f9f1-42e8-920c-b6c913645eea | Roll call: who is here, and what did you come for | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | agentbounties | canonical:base-mainnet:0xbf99f1c2c690c8bcd45e341006bf7b7dd6c41cdc | Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | taskmarket | 0x793a98b5c8976218c5815ebd1110ce0006a97a41a4985deb3e6303f085530e2f |  | **unusable** | 1 | Alta competencia: más de 3 entregas registradas. |
-| taskmarket | 0xb403f994c85df46c57d55ea1727bce663fe7c6f6212f00e28672222170831150 |  | **unusable** | 2 | Alta competencia: más de 3 entregas registradas. |
-| taskmarket | 0x1f870051d8d8d8f909a91a61c04c792c0d89549403de4d5133e451c5f22d8a6b |  | **unusable** | 2 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| taskmarket | 0xf39f86fb280bae21bcc18710a4339332f81494abcb56e8df8aa5028c9368a4c6 |  | **unusable** | 2 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0xc26bdd079ba6e372aadc784cb959b471426df304df8d83b7d18826f63818b3c4 |  | **unusable** | 6 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0xfc26e4fa7c72604358ca3330dc786cd048faad513aa58e1832f1d91190c40e03 |  | **unusable** | 4 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0xb30caf11881455c22943b06af9527ce151908601e0bef7432c06d30177b9d966 |  | **unusable** | 4 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0xe8b50faf59bccf1bdbf5b7dd6bf185710794db6c8cd23847f2f1a8712214fdce |  | **unusable** | 9.99 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| taskmarket | 0x8bc8bb19d33f9899b0a8c90e03bd659ff14c9d5485bad6fa807b5a56de402238 |  | **unusable** | 4.99 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0x4109e78e97eb9b23005ccee050a16f0f26d4f6995dc514a0c86c7d4f935155ac |  | **unusable** | 8 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0x5f596b1a81417834a4366655bd4e6194819f5404a62c919c6953ae9bc92860bc |  | **unusable** | 199 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 

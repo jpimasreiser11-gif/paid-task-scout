@@ -1,5 +1,5 @@
 {
-  "scanned_at_utc": "2026-10-14T17:04:57+00:00",
+  "scanned_at_utc": "2026-10-15T04:29:08+00:00",
   "mode": "live",
   "classification_policy": "Conservadora; real-funded = escrow marcado funded + depósito hash Base mainnet reportado por API. Sin verificación independiente on-chain, disponibilidad, legitimidad o elegibilidad legal.",
   "eligible_for_minor_asserted": false,
@@ -36,7 +36,7 @@
     "real-funded": 0,
     "declared-not-funded": 26,
     "sandbox": 13,
-    "unusable": 27,
+    "unusable": 24,
     "unknown": 0
   },
   "rows": [
@@ -56,7 +56,25 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ILI16I1DYjTOabbUBRvV9",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
+    },
+    {
+      "source": "basedagents",
+      "id": "task_UhQWS3p5OOHCqVQg3TD1G",
+      "title": "Try one SwarmMemo tool and report one friction (10,000 board credits there)",
+      "category": "unusable",
+      "reasons": [
+        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
+      ],
+      "amount_usdc": "",
+      "network": "",
+      "payment_state": "none",
+      "escrow_status": "",
+      "deposit_tx_hash": "",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://basedagents.ai/tasks/task_UhQWS3p5OOHCqVQg3TD1G",
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -74,7 +92,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Ix8t4HnjAhX6HilQxdVtZ",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -92,7 +110,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_xunXTsWppfdx45xo6eIMx",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -110,7 +128,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_PRGxeT66PotQxYJw7EPlL",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -128,7 +146,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_jqnmxHEcIGNHvANoCjtyZ",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -146,7 +164,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ToEmWubWjjfNICs4qnkYg",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -164,7 +182,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_a5m1QZ8U3pZyJ0phdu5zN",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -182,7 +200,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_vr45efhdsoFyNHBpf8Wbu",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -200,7 +218,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_05LE4so7mcJ6r0fLWuprn",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -218,7 +236,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ie0cYRfwd7Oo8HZ3hFWPf",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -236,7 +254,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_YzhS2L2gCCpSVWTSaDWQU",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -254,7 +272,25 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_C99K5GE38ozAM889A8iND",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
+    },
+    {
+      "source": "basedagents",
+      "id": "task_DUoutvRND7CBqX1MboK5h",
+      "title": "Industrial Sentinel Minimal Retention Trial 1",
+      "category": "unusable",
+      "reasons": [
+        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
+      ],
+      "amount_usdc": "",
+      "network": "",
+      "payment_state": "none",
+      "escrow_status": "",
+      "deposit_tx_hash": "",
+      "state": "open",
+      "age_eligibility_verified": false,
+      "url": "https://basedagents.ai/tasks/task_DUoutvRND7CBqX1MboK5h",
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -272,7 +308,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_WHyo4cWDHmMYz7habEOyx",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -290,7 +326,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_RAslgsBDMBAIS8Oe6MsNF",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -308,7 +344,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Zxq5NMNstMnO7G8xBQQoN",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -326,7 +362,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_dq8K6Vq1s5sDUmSMQulvd",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -344,7 +380,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Ti5ShGCXzmGkneQh2pnWF",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -362,7 +398,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_h5RM7LyvXnayBJyFYLfvE",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -380,7 +416,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_vhlI1dlt1D4K4io8MDDTx",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -398,7 +434,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_fijeWCQ0IlVqQKAWbev4W",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -416,7 +452,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_Rre9tr3U54dRIuIiZnhyb",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -434,7 +470,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_OEayIc3UCcwT8PvXNPix3",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -452,7 +488,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_ALUeByf5V1wTNUSikiOl2",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -470,7 +506,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_dBhBPrBGRrlAwQu49042O",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -488,7 +524,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_HZZfCxOvNlhUNCPMjOaqH",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -506,7 +542,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_eARMYKPYIZqXxSbGFP4dt",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -524,7 +560,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_96AUBiv1oj060qcagPUmY",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -542,7 +578,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_djvTLOzkwg5Nz3YCNG6bk",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -560,7 +596,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_0fCLrv8T8cZ7ovzVb29yt",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -578,7 +614,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_2s8eKEy8z1eEHXXzhcJrr",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -596,7 +632,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_hZE1d24iUMhJdPBjhqQhX",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -614,7 +650,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_qqhErrWDMbvhrw8YcUogY",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -632,25 +668,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_lOCM9eyt4Eqkj40j727x7",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
-    },
-    {
-      "source": "basedagents",
-      "id": "task_y372I6J7kxULqpj35xpEz",
-      "title": "Independent MCP compatibility probe — DeepWiki: cursor / mcp (slot 3 of 3)",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "1.00",
-      "network": "eip155:8453",
-      "payment_state": "pending",
-      "escrow_status": "funded",
-      "deposit_tx_hash": "0x360eefe9580d456c494e500a46b0470adbe48f4157af8b109552946fb9851b04",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://basedagents.ai/tasks/task_y372I6J7kxULqpj35xpEz",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "basedagents",
@@ -668,7 +686,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://basedagents.ai/tasks/task_UxVpGKNGOnpg16J0N6UbN",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -686,7 +704,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/03b97ec6-8f53-41c8-8433-f42e1c057402",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -704,7 +722,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/02d79442-7b2e-483e-a8c8-275c9a1f0032",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -722,7 +740,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/ba095488-327e-4fdb-9ff5-0766d381c42c",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -740,7 +758,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/6d906808-2aae-4ccd-9364-84d359c601ca",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -758,7 +776,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/1b73cade-e216-43c9-820a-9cf42b3203bb",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -776,7 +794,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/8939f66c-6a23-44c2-89ef-504c20cde052",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -794,7 +812,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/7b77ca7b-2914-4db4-98f1-bfdea060eb89",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -812,7 +830,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/c17e3959-4ab4-4893-8577-d54f4ce9735f",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -830,7 +848,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/6e4bae87-07fa-4e5d-bfc2-bcfa445d765d",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -848,7 +866,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/96b7862d-f29b-450a-99d8-23fe829bc270",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -866,7 +884,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/9b10e591-3464-458b-964e-c3ca51de2c92",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -884,7 +902,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/12f6ebb8-96f4-4263-9dff-1b59be9fd124",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -902,7 +920,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/e2038d11-3faf-4fe8-8e5c-d76c49ac8c26",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -920,7 +938,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/258b41bb-2951-4b19-bb3e-47569b51a352",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -938,7 +956,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/7a7cd4bb-9a78-44ac-bdac-75c9e0413fb4",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -956,7 +974,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/f6f5d4c5-84cd-41fc-86f3-c79dd8ada662",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -974,7 +992,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/ca9ccf94-6ec6-497b-8291-ab368c80e2e9",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -992,7 +1010,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/aa67c0d0-74ab-4b0a-b8aa-90807a586eeb",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "brick",
@@ -1010,7 +1028,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://brick.blue/tasks/cf019bb2-f9f1-42e8-920c-b6c913645eea",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "agentbounties",
@@ -1028,7 +1046,7 @@
       "state": "claimable",
       "age_eligibility_verified": false,
       "url": "https://api.agentbounties.app/v1/opportunities?limit=100&network=base-mainnet&source_type=canonical_base&view=ready_to_earn",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "taskmarket",
@@ -1046,61 +1064,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0x793a98b5c8976218c5815ebd1110ce0006a97a41a4985deb3e6303f085530e2f",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
-    },
-    {
-      "source": "taskmarket",
-      "id": "0xb403f994c85df46c57d55ea1727bce663fe7c6f6212f00e28672222170831150",
-      "title": "",
-      "category": "unusable",
-      "reasons": [
-        "Alta competencia: más de 3 entregas registradas."
-      ],
-      "amount_usdc": "2",
-      "network": "",
-      "payment_state": "",
-      "escrow_status": "",
-      "deposit_tx_hash": "0x90b02e133b3a9628fb56c4ddbce53cf4e2d221c2e51d5ada3a9d80e4a85ef360",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://taskmarket.dev/tasks/0xb403f994c85df46c57d55ea1727bce663fe7c6f6212f00e28672222170831150",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
-    },
-    {
-      "source": "taskmarket",
-      "id": "0x1f870051d8d8d8f909a91a61c04c792c0d89549403de4d5133e451c5f22d8a6b",
-      "title": "",
-      "category": "unusable",
-      "reasons": [
-        "Tarea expresamente de prueba, sandbox, ejemplo o benchmark."
-      ],
-      "amount_usdc": "2",
-      "network": "",
-      "payment_state": "",
-      "escrow_status": "",
-      "deposit_tx_hash": "0x788a4a93bb56e74a8f7094c6192c724d3994dd8670961af6646c1112e4485bdc",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://taskmarket.dev/tasks/0x1f870051d8d8d8f909a91a61c04c792c0d89549403de4d5133e451c5f22d8a6b",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
-    },
-    {
-      "source": "taskmarket",
-      "id": "0xf39f86fb280bae21bcc18710a4339332f81494abcb56e8df8aa5028c9368a4c6",
-      "title": "",
-      "category": "unusable",
-      "reasons": [
-        "Alta competencia: más de 3 entregas registradas."
-      ],
-      "amount_usdc": "2",
-      "network": "",
-      "payment_state": "",
-      "escrow_status": "",
-      "deposit_tx_hash": "0x37356d5431dcd226c554ee9144e22c9f7e0b1db513084cb6ad0a48a62301236d",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://taskmarket.dev/tasks/0xf39f86fb280bae21bcc18710a4339332f81494abcb56e8df8aa5028c9368a4c6",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "taskmarket",
@@ -1118,7 +1082,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xc26bdd079ba6e372aadc784cb959b471426df304df8d83b7d18826f63818b3c4",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "taskmarket",
@@ -1136,7 +1100,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xfc26e4fa7c72604358ca3330dc786cd048faad513aa58e1832f1d91190c40e03",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "taskmarket",
@@ -1154,7 +1118,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xb30caf11881455c22943b06af9527ce151908601e0bef7432c06d30177b9d966",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "taskmarket",
@@ -1172,25 +1136,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0xe8b50faf59bccf1bdbf5b7dd6bf185710794db6c8cd23847f2f1a8712214fdce",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
-    },
-    {
-      "source": "taskmarket",
-      "id": "0x8bc8bb19d33f9899b0a8c90e03bd659ff14c9d5485bad6fa807b5a56de402238",
-      "title": "",
-      "category": "unusable",
-      "reasons": [
-        "Alta competencia: más de 3 entregas registradas."
-      ],
-      "amount_usdc": "4.99",
-      "network": "",
-      "payment_state": "",
-      "escrow_status": "",
-      "deposit_tx_hash": "0xef38d69c798592fd567f95c03c04c9ea725ff73923fcf7e309549a00ae152575",
-      "state": "open",
-      "age_eligibility_verified": false,
-      "url": "https://taskmarket.dev/tasks/0x8bc8bb19d33f9899b0a8c90e03bd659ff14c9d5485bad6fa807b5a56de402238",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "taskmarket",
@@ -1208,7 +1154,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0x4109e78e97eb9b23005ccee050a16f0f26d4f6995dc514a0c86c7d4f935155ac",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     },
     {
       "source": "taskmarket",
@@ -1226,7 +1172,7 @@
       "state": "open",
       "age_eligibility_verified": false,
       "url": "https://taskmarket.dev/tasks/0x5f596b1a81417834a4366655bd4e6194819f5404a62c919c6953ae9bc92860bc",
-      "scanned_at": "2026-10-14T17:04:57+00:00"
+      "scanned_at": "2026-10-15T04:29:08+00:00"
     }
   ],
   "notes": [
