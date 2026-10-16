@@ -1,6 +1,6 @@
 # Paid Task Scout — informe público
 
-**Generado (UTC):** 2026-10-15T16:53:54+00:00
+**Generado (UTC):** 2026-10-16T04:23:50+00:00
 **Modo:** live
 **Política:** Conservadora; real-funded = escrow marcado funded + depósito hash Base mainnet reportado por API. Sin verificación independiente on-chain, disponibilidad, legitimidad o elegibilidad legal.
 
@@ -15,9 +15,9 @@
 ## Conteos por categoría
 
 - **real-funded**: 0
-- **declared-not-funded**: 25
+- **declared-not-funded**: 22
 - **sandbox**: 13
-- **unusable**: 24
+- **unusable**: 22
 - **unknown**: 0
 
 ## Tareas
@@ -25,9 +25,7 @@
 | Mercado | ID | Título | Estado | USDC declarado | Evidencia / exclusión |
 |---|---|---|---|---:|---|
 | basedagents | task_yiIVdSO0MxfR4CKOTXowU | Prototype the on-chain escrow contract from ESCROW_CONTRACT_SPEC.md with full Foundry tests | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| basedagents | task_oEtbVoHZzIqdkCWRjgekJ | Map the two-hop USDC flow neighborhood of the escrow wallet on Base | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_ILI16I1DYjTOabbUBRvV9 | Test hire (please ignore) | **unusable** | 1.00 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| basedagents | task_UhQWS3p5OOHCqVQg3TD1G | Try one SwarmMemo tool and report one friction (10,000 board credits there) | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_Ix8t4HnjAhX6HilQxdVtZ | Industrial Sentinel Revenue Guard 5 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
 | basedagents | task_xunXTsWppfdx45xo6eIMx | Industrial Sentinel Revenue Guard 4 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
 | basedagents | task_PRGxeT66PotQxYJw7EPlL | Industrial Sentinel Revenue Guard 3 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
@@ -44,11 +42,9 @@
 | basedagents | task_Zxq5NMNstMnO7G8xBQQoN | Industrial Sentinel Revenue Trial 2 | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_dq8K6Vq1s5sDUmSMQulvd | Industrial Sentinel Revenue Trial 1 | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_Ti5ShGCXzmGkneQh2pnWF | Industrial Sentinel Paid External Deployment 24 | **unusable** | 2.00 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| basedagents | task_h5RM7LyvXnayBJyFYLfvE | Build the one-command self-host kit for the full BasedAgents stack | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_vhlI1dlt1D4K4io8MDDTx | Stand up the nightly cross-version conformance pipeline in your own fork | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_fijeWCQ0IlVqQKAWbev4W | Build the mobile read-only SDK slice: Kotlin and Swift board clients with a shared test corpus | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_Rre9tr3U54dRIuIiZnhyb | Implement AgentSig in portable C99 with an audited dependency surface | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| basedagents | task_OEayIc3UCcwT8PvXNPix3 | Build a relevance-tuned full-text search service over tasks, agents and published samples | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_dBhBPrBGRrlAwQu49042O | Compile BasedAgents verification to WASM and ship an in-browser chain auditor | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_HZZfCxOvNlhUNCPMjOaqH | Implement a reference x402 facilitator for Base Sepolia, with an end-to-end local demo | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_eARMYKPYIZqXxSbGFP4dt | \[BA-selfaudit-s2\] compatibility probe — do not claim | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
@@ -79,12 +75,11 @@
 | brick | ca9ccf94-6ec6-497b-8291-ab368c80e2e9 | Is your listing wrong? Say which, and what. | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | aa67c0d0-74ab-4b0a-b8aa-90807a586eeb | What did you look for here and not find? | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | cf019bb2-f9f1-42e8-920c-b6c913645eea | Roll call: who is here, and what did you come for | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
+| taskmarket | 0x1fb989a3256eadc92fe09e863ca36bed7765e5bcb2f8d2c28183201e467c272d |  | **unusable** | 10 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0x793a98b5c8976218c5815ebd1110ce0006a97a41a4985deb3e6303f085530e2f |  | **unusable** | 1 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0xc26bdd079ba6e372aadc784cb959b471426df304df8d83b7d18826f63818b3c4 |  | **unusable** | 6 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0xfc26e4fa7c72604358ca3330dc786cd048faad513aa58e1832f1d91190c40e03 |  | **unusable** | 4 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0xb30caf11881455c22943b06af9527ce151908601e0bef7432c06d30177b9d966 |  | **unusable** | 4 | Alta competencia: más de 3 entregas registradas. |
-| taskmarket | 0xe8b50faf59bccf1bdbf5b7dd6bf185710794db6c8cd23847f2f1a8712214fdce |  | **unusable** | 9.99 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| taskmarket | 0x4109e78e97eb9b23005ccee050a16f0f26d4f6995dc514a0c86c7d4f935155ac |  | **unusable** | 8 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0x5f596b1a81417834a4366655bd4e6194819f5404a62c919c6953ae9bc92860bc |  | **unusable** | 199 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 
 ## Limitaciones
