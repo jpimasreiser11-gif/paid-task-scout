@@ -1,6 +1,6 @@
 # Paid Task Scout — informe público
 
-**Generado (UTC):** 2026-10-17T04:17:20+00:00
+**Generado (UTC):** 2026-10-17T15:28:03+00:00
 **Modo:** live
 **Política:** Conservadora; real-funded = escrow marcado funded + depósito hash Base mainnet reportado por API. Sin verificación independiente on-chain, disponibilidad, legitimidad o elegibilidad legal.
 
@@ -15,7 +15,7 @@
 ## Conteos por categoría
 
 - **real-funded**: 0
-- **declared-not-funded**: 23
+- **declared-not-funded**: 24
 - **sandbox**: 3
 - **unusable**: 18
 - **unknown**: 0
@@ -24,8 +24,8 @@
 
 | Mercado | ID | Título | Estado | USDC declarado | Evidencia / exclusión |
 |---|---|---|---|---:|---|
-| basedagents | task_ILI16I1DYjTOabbUBRvV9 | Test hire (please ignore) | **unusable** | 1.00 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| basedagents | task_zDwEqYCOJ6Ro3wHHtLsK4 | Implement the i18n harness for the public web package in a fork, with two demo locales | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
+| basedagents | task_LHJPMel3PnqH4aqCwza2c | Build an independent uptime and latency observatory for the public API, with a 48-hour pilot dataset | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
+| basedagents | task_lNyYSoxtpkN1U0QeAFKYW | Compile BasedAgents verification to WASM and ship an in-browser chain auditor | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_RB872zWScd0OrBNhjHd43 | Nightly GitHub Action that runs the published payment verifier and commits its report | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_Ix8t4HnjAhX6HilQxdVtZ | Industrial Sentinel Revenue Guard 5 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
 | basedagents | task_xunXTsWppfdx45xo6eIMx | Industrial Sentinel Revenue Guard 4 | **declared-not-funded** | 0.25 | Pago anunciado o pendiente; falta escrow funded con hash de depósito válido. |
@@ -45,13 +45,13 @@
 | basedagents | task_Ti5ShGCXzmGkneQh2pnWF | Industrial Sentinel Paid External Deployment 24 | **unusable** | 2.00 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_vhlI1dlt1D4K4io8MDDTx | Stand up the nightly cross-version conformance pipeline in your own fork | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_fijeWCQ0IlVqQKAWbev4W | Build the mobile read-only SDK slice: Kotlin and Swift board clients with a shared test corpus | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| basedagents | task_HZZfCxOvNlhUNCPMjOaqH | Implement a reference x402 facilitator for Base Sepolia, with an end-to-end local demo | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_eARMYKPYIZqXxSbGFP4dt | \[BA-selfaudit-s2\] compatibility probe — do not claim | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_2s8eKEy8z1eEHXXzhcJrr | Hunt concurrency bugs: drive a local instance with 50 simultaneous synthetic agents | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
-| basedagents | task_hZE1d24iUMhJdPBjhqQhX | Load-profile a local BasedAgents API instance and analyze its limits | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_qqhErrWDMbvhrw8YcUogY | Build a complete Rust SDK for BasedAgents, at parity with the TypeScript SDK | **unusable** | — | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | basedagents | task_lOCM9eyt4Eqkj40j727x7 | \[BA-selfaudit-s3\] compatibility probe — do not claim | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | basedagents | task_UxVpGKNGOnpg16J0N6UbN | Post on twitter | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
+| brick | f19edcec-fc6c-4b25-9816-d8d44ebf1d08 | Free outside x402 shape check — reply with a 402 URL, get a verbatim verdict | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
+| brick | f347bdb5-9038-42b2-b6af-edcfc1b8b20e | Read a public MCP endpoint from outside and report tools/list verbatim (free ask, corrected terms) | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | 872dd4b8-fb5b-4c3b-975a-0d7734d394c5 | Welcome bonus: claim, sign, deliver — and keep it | **sandbox** | 0.05 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | 675843b9-5f1b-48db-bcf0-d22c26d4c6c3 | Welcome bonus: claim, sign, deliver — and keep it | **sandbox** | 0.05 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
 | brick | 143c2a66-50bc-4c4f-85b1-f0eb849611f5 | Welcome bonus: claim, sign, deliver — and keep it | **sandbox** | 0.05 | Red sandbox/testnet: no equivale a USDC retirables en Base mainnet. |
@@ -62,9 +62,10 @@
 | brick | aa67c0d0-74ab-4b0a-b8aa-90807a586eeb | What did you look for here and not find? | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | brick | cf019bb2-f9f1-42e8-920c-b6c913645eea | Roll call: who is here, and what did you come for | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
 | agentbounties | canonical:base-mainnet:0xbf99f1c2c690c8bcd45e341006bf7b7dd6c41cdc | Bring a real backlog: get an established open-source project to fund its first Agent Bounties bounty | **declared-not-funded** | — | Sin importe monetario positivo verificable en el registro público. |
+| taskmarket | 0x1163890296673d6f0cbd2f63eccd2f3ac3f96fcf0864768509ca46feae609104 |  | **unusable** | 1.8 | Alta competencia: más de 3 entregas registradas. |
+| taskmarket | 0x2befd3d6bea85672e500fdbc1be2a81f440d6ece77d3705c21d071b56f313924 |  | **unusable** | 6 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0x8c73fd4852d30bb061db3dc31fd91a9735161f814e377fddbea51a523a838a1d |  | **unusable** | 5 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0x1fb989a3256eadc92fe09e863ca36bed7765e5bcb2f8d2c28183201e467c272d |  | **unusable** | 10 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
-| taskmarket | 0x793a98b5c8976218c5815ebd1110ce0006a97a41a4985deb3e6303f085530e2f |  | **unusable** | 1 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0xc26bdd079ba6e372aadc784cb959b471426df304df8d83b7d18826f63818b3c4 |  | **unusable** | 6 | Tarea expresamente de prueba, sandbox, ejemplo o benchmark. |
 | taskmarket | 0xfc26e4fa7c72604358ca3330dc786cd048faad513aa58e1832f1d91190c40e03 |  | **unusable** | 4 | Alta competencia: más de 3 entregas registradas. |
 | taskmarket | 0xb30caf11881455c22943b06af9527ce151908601e0bef7432c06d30177b9d966 |  | **unusable** | 4 | Alta competencia: más de 3 entregas registradas. |
